@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Layouts</title>
+  
+</head>
+<body>
+    
+    <header>
+        <h2>fale conosco</h2>
+    </header>
+    
+    <section>
+        <nav>
+            <ul>
+                <li> <a href="./06-layouts-HTML.HTML">Home</li></a>
+                <li><a href="#about">Sobre</li></a>
+                <li><a href="#Contact">Contato</li></a>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Formulário</h1>
+        <p>Preencha os campos abaixo</p>
+        <form method="post">
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+            </div>
+            <div>
+                <label for="E-mail">E-mail</label><br>
+                <input type="email" name="e-mail" id="E-mail" placeholder="Digite seu email">
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label><br>
+                <textarea name="texto" id="Mensagem" rows="5"></textarea>
+            </div>
+            <div>
+                <p>
+                <label for="linguagem">Quais linguagens você prefere?</label>
+                <input type="radio" name="linguagem" id="linguagem"> HTML
+                <input type="radio" name="linguagem" id="linguagem"> CSS
+                <input type="radio" name="linguagem" id="linguagem"> JavaScript</p>
+            </div>
+            <div>
+                <p>
+                <label for="linguagem">Quais linguagens você sabe?</label>
+                <input type="checkbox" name="linguagem" id="linguagem"> HTML
+                <input type="checkbox" name="linguagem" id="linguagem"> CSS
+                <input type="checkbox" name="linguagem" id="linguagem"> JavaScript</p>
+            </div>
+
+            <label for="opcoes">Qual sua cor favorita?</label>
+            <select name="opcoes" id="opcoes">
+            <option value="">Verde</option>
+            <option value="">Azul</option>
+            <option value="">Vermelho</option>
+        </select>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+
+        </form>
+        </article>
+    </section>
+
+    <footer><p>Desenvolvido por Luis!</p></footer>
+</body>
+</html>
