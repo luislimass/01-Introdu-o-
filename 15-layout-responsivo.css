@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.coluna{
+    display: block;
+    width: 33.3%;
+    float: left;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #333;
+}
+
+.coluna-03{
+    columns: 100px 3;
+    width: 100%;
+    background: #eee;
+    border: 1px solid #333;
+}
+
+/*mobile fist*/
+
+@media (max-width:425px){
+
+    nav, 
+    article,
+    .coluna{
+        width:100%
+        min-width 320px;
+    }
+}
